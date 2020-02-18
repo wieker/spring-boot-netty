@@ -1,3 +1,8 @@
 logging:
   level: INFO
   level.org.kgusarov: TRACE
+netty:
+  servers:
+    - name: home
+      host: localhost
+      port: 40000
